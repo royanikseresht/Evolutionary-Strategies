@@ -24,3 +24,15 @@ Here's an example of how to use the ES algorithm:
 best_solution = evolutionary_strategies(objective_function, num_generations=100, population_size=50, num_parameters=5, mutation_scale=0.1)
 print("Best solution found:", best_solution)
 print("Objective function value:", objective_function(best_solution))
+
+
+
+Contributing
+If you have any ideas for improving the ES algorithm or would like to contribute to this repository, feel free to submit a pull request or open an issue.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgments
+The ES algorithm implementation is based on the principles of evolutionary computation and optimization.
+The code is provided as a simple example and can be further extended and customized for specific optimization problems.
